@@ -7,15 +7,15 @@ export function Testi() {
   return (
 
     (
-        <>
+        <div div className="h-auto">
          <Header heading={"Testimonials"}/>
     <Background>
-        <div className="h-[400px] bg-transparent flex items-center w-full relative">
+        <div className=" md:h-[400px] h-full bg-transparent flex items-center w-full relative">
         <Testimonials/>
         </div>
     
     </Background>
-        </>
+        </div>
    )
   );
 }

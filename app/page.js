@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import AboutPage from "@/components/AboutPage";
 import { Cards } from "@/components/Cards";
+import Developer from "@/components/Developer";
 import { Footer } from "@/components/Footer";
 import { GoogleEffect } from "@/components/GoogleEffect";
 import { Header } from "@/components/Header";
@@ -22,6 +23,7 @@ export default function Home() {
       <About/>
      
       <AboutPage/>
+      <Developer/>
       <GoogleEffect/>
       
        
