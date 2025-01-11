@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Developer() {
   return (
-    <section id="about" className="about py-12">
+    <section id="about" className="about py-12 px-14">
       <div className="container mx-auto px-6">
         {/* Heading */}
        <Header heading={"Developed By "}/>
