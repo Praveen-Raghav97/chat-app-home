@@ -13,7 +13,7 @@ export default function Developer() {
           {/* Developer Image */}
           <div className="image hover:animate-pulse cursor-pointer flex-shrink-0 w-full lg:w-1/3 text-center mb-8 lg:mb-0">
             <Image
-              src="/image1.png" // Replace with the actual path to your image
+              src="/developer.png" // Replace with the actual path to your image
               alt="Developer"
               width={300}
               height={300}
