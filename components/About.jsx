@@ -2,6 +2,7 @@ import { IconFlagStar, IconFreeRights, IconGlobe, IconLock, IconSearch, IconSign
 import React from 'react'
 import { Header } from './Header';
 import { Cards } from './Cards';
+import AboutPage from './AboutPage';
 
 const About = () => {
     const cardData = [
@@ -45,7 +46,7 @@ const About = () => {
 
   return (
     <>
-     
+     <Header heading={"About us"}/>
     <div className='min-h-screen   w-full py-10 flex items-center flex-col'>
         
       <div className=' max-w-[870px] mx-auto px-4 text-center py-4 mb-4'>
@@ -56,8 +57,10 @@ const About = () => {
       <Cards/>
       </div>
       
-    </div></>
-   
+    </div>
+    <AboutPage/>
+    </>
+  
   )
 }
 

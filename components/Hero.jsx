@@ -5,7 +5,7 @@ import { HeroParallax } from "@/components/ui/hero-parallax";
 export function Hero() {
 
   return (
-    <div className="h-full w-full">
+    <div className="h-full w-full mb-4">
       <HeroParallax products={products} />;
     </div>
   )

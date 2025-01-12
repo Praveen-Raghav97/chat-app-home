@@ -16,13 +16,12 @@ export default function Home() {
   return (
 <div>
     
-      < main>
-      <Hero/>
+      < main className="py-4">
       <Navbar/>
-      <Header heading={"About us"}/>
+      <Hero/>
+     
       <About/>
      
-      <AboutPage/>
       <Developer/>
       <GoogleEffect/>
       
