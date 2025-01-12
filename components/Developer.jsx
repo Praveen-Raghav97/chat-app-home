@@ -28,7 +28,7 @@ export default function Developer() {
           {/* Content Section */}
           <div className="content lg:w-2/3">
             <h3 className="text-2xl font-semibold text-gray-100 mb-2">
-              I'm Praveen
+              I'm <span className='text-purple-500 font-extrabold'>Praveen Raghav</span>
             </h3>
             <span className="tag inline-block bg-purple-600 text-purple-100 text-sm px-3 py-2 rounded-full mb-4">
               Full Stack Developer

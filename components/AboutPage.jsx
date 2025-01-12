@@ -4,7 +4,7 @@ const AboutPage = () => {
   return (
     <div>
       <div className=' max-w-[870px] mx-auto px-4 text-center py-4 mb-4'>
-        <h1 className='text-3xl mb-2 font-semibold'>Anonymous Chat, Meet new people</h1>
+        <h1 className='text-3xl mb-2 font-semibold'>Anonymous Chat,<span className='text-purple-500 font-extrabold'> Meet new people</span>.</h1>
         <p className='text-lg text-gray-500 font-semibold mt-2 text-center'>Find strangers worldwide, the new modern Omegle and OmeTV alternative. Connect with real people, enjoy ad free text and video chats, and build genuine friendships.</p>
       </div>
       
