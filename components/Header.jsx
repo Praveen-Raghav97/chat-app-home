@@ -16,7 +16,7 @@ export function Header({heading}) {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className=" bg-gradient-to-br from-slate-300 to-slate-500  bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl">
+        className=" bg-gradient-to-br from-slate-50 to-purple-500  bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl">
       {heading}
       </motion.h1>
     </LampContainer>
