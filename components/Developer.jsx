@@ -4,10 +4,12 @@ import Link from "next/link";
 
 export default function Developer() {
   return (
-    <section id="about" className="about py-12 px-14">
+    <>
+    <Header heading={"Developer Team"}/>
+      <section id="about" className="about  px-2 md:px-14">
       <div className="container mx-auto px-6">
         {/* Heading */}
-       <Header heading={"Developed By "}/>
+      
 
         <div className="row flex flex-col lg:flex-row items-center lg:gap-12">
           {/* Developer Image */}
@@ -78,5 +80,7 @@ export default function Developer() {
         </div>
       </div>
     </section>
+    </>
+  
   );
 }
