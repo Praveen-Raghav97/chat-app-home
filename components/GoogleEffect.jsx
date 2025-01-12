@@ -21,6 +21,8 @@ export function GoogleEffect() {
       className="h-[400vh] bg-black w-full dark:border dark:border-white/[0.1] rounded-md relative pt-40 overflow-clip"
       ref={ref}>
       <GoogleGeminiEffect
+      title={"Start Chat With Frenemy"}
+      description={"Chat With Starngers and make new friends around the globe."}
         pathLengths={[
           pathLengthFirst,
           pathLengthSecond,
