@@ -18,10 +18,10 @@ export function GoogleEffect() {
 
   return (
     (<div
-      className="h-[400vh] bg-black w-full dark:border dark:border-white/[0.1] rounded-md relative pt-40 overflow-clip"
+      className="h-[400vh] max-h-full bg-black w-full dark:border dark:border-white/[0.1] rounded-md relative pt-40 overflow-clip"
       ref={ref}>
       <GoogleGeminiEffect
-      title={"Start Chat With Frenemy"}
+      title={"Start Chat With Frenmy"}
       description={"Chat With Starngers and make new friends around the globe."}
         pathLengths={[
           pathLengthFirst,

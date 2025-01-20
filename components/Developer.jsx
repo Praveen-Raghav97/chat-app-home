@@ -11,7 +11,7 @@ export default function Developer() {
         {/* Heading */}
       
 
-        <div className="row flex flex-col lg:flex-row items-center lg:gap-12">
+        <div className="row flex flex-col lg:flex-row md:px-10 items-center lg:gap-12">
           {/* Developer Image */}
           <div className="image hover:animate-pulse cursor-pointer flex-shrink-0 w-full lg:w-1/3 text-center mb-8 lg:mb-0">
             <Image
