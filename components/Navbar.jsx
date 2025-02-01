@@ -16,7 +16,7 @@ export function Navbar() {
     },
     {
       name: "Login",
-      link: "/",
+      link: "https://chat-app-2-uvjt.onrender.com/",
       icon: (
         <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),
